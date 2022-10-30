@@ -9,7 +9,7 @@ entity data_path is
 	--INPUTS:
 		clk : in std_logic;
 		rst : in std_logic;
-		IR_Load : in std_logic; --Komut register yukle commend
+		IR_Load : in std_logic; -- register load commend
 		MAR_LOAD: in std_logic;
 		PC_Load :in std_logic;
 		Pc_Inc : in std_logic;
@@ -22,9 +22,9 @@ entity data_path is
 		from_memory : in std_logic_vector(7 downto 0 );
 	--OUTPUTS:
 		IR :  out std_logic_vector(7 downto 0 );
-		adress :  out std_logic_vector(7 downto 0 );--bellege giden adress
+		adress :  out std_logic_vector(7 downto 0 );
 		CCR_Result : out std_logic_vector(3 downto 0 );--NCVZ
-		to_memory : out std_logic_vector (7 downto 0) --bellege giden veri
+		to_memory : out std_logic_vector (7 downto 0) 
 		
 		
 		

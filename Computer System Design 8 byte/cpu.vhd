@@ -86,7 +86,7 @@ component control_unit is
 
 end component;
 
---BAGLANTI SIGNALS -- DATA PATH
+-- DATA PATH
 
 signal IR_Load    :  std_logic; 
 signal IR    :  std_logic_vector (7 downto 0);
